@@ -1,0 +1,277 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*style css*/
+
+body {
+  background-color: #980f5a;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.5rem;
+  line-height: 28px;
+  color: whitesmoke;
+}
+
+.container {
+  width: 45rem;
+  margin: auto;
+  padding-top: 14rem;
+}
+
+section {
+  margin-bottom: 13rem;
+}
+
+.profil {
+  padding: 1.25rem;
+}
+
+.fotodelin {
+  width: 200px;
+  border-radius: 100%;
+  float: right;
+  margin-left: 30px;
+}
+
+.profil h1 {
+  font-family: "Caveat", cursive;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.profil h2 {
+  font-size: 1.25em;
+  font-weight: bold;
+  color: #3bacb6;
+  margin-bottom: 10px;
+}
+
+.profil p {
+  font-size: 0.93rem;
+}
+
+address a {
+  background-color: #3bacb6;
+  padding: 12px 30px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+address a:hover {
+  background-color: aliceblue;
+  color: rgb(202, 87, 87);
+}
+
+.skill h1 {
+  font-size: 1.43rem;
+  font-weight: bold;
+  text-align: right;
+  margin-bottom: 50px;
+}
+
+.skill-1 {
+  text-align: left;
+  margin-bottom: 100px;
+}
+
+.skill-1 .fotohtml,
+.skill-1 .fotojs {
+  width: 180px;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-1 .fotocss {
+  width: 180px;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-1 h2 {
+  font-size: 1.56rem;
+  color: #3bacb6;
+  font-weight: bold;
+}
+
+.skill-1 p {
+  font-size: 0.93rem;
+}
+
+.kontak {
+  text-align: center;
+}
+
+.kontak h1 {
+  font-size: 1.43rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.kontak p {
+  width: 60%;
+  font-size: 1rem;
+  margin: auto;
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #393e46;
+  padding: 20px;
+  text-align: center;
+}
+
+.sosial-link {
+  margin: 0 12px 20px;
+  text-decoration: none;
+  color: #3bacb6;
+}
+
+footer a:hover {
+  color: whitesmoke;
+}
+
+footer p {
+  font-size: 0.875rem;
+  margin-top: 30px;
+}
+
+@media (max-width: 750px) {
+  html,
+  .kontak p {
+    font-size: 65%;
+  }
+
+  .profil h1 {
+    line-height: 1.6;
+  }
+}
